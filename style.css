@@ -170,6 +170,32 @@ body {
   color: #ab3c3c;
   font-size: 10pt;
 }
+.top-icon-links{
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.hoverspand {
+
+  transition: transform 0.3s ease; /* Apply a smooth transition to the transform property */
+}
+
+.hoverspand:hover {
+  transform: scale(1.1); /* Scale the element to 110% on hover */
+}
+.crop{
+  overflow: hidden;
+}
+
+
+.opacity-hover {
+  opacity: 1; /* Fully visible */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.opacity-hover:hover {
+  opacity: 0.7; /* Lower opacity on hover */
+}
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {

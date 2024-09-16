@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('/fonts/Helvetica-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoSlabBold';
+  src: url('/fonts/RobotoSlab-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -113,6 +134,13 @@ body {
   color: #ab3c3c;
 }
 
+.roboto-slab{
+  font-family: 'RobotoSlabBold', Arial;
+}
+.helvetica-paragraph{
+  font-family: 'Helvetica', Arial;
+}
+
 .helpful{
   margin-top: 30px;
 }
@@ -121,6 +149,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10px;
 }
 .widget{
   width: 30%;
@@ -129,6 +158,17 @@ body {
 .widget p{
   font-size: 10pt;
   margin-top: 10px;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+.read-more{
+  text-decoration: underline;
+  margin-top: 100px;
+  padding-top: 40px;
+  color: #ab3c3c;
+  font-size: 10pt;
 }
 
 /* Responsive adjustments */
